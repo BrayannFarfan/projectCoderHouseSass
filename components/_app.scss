@@ -1,0 +1,28 @@
+.container__img {
+  margin: auto;
+  width: 80%;
+  .container__img__title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 5px 1px 2px rgba(150, 150, 150, 1);
+  }
+  .conatiner__img__icon {
+    font-size: 3rem;
+    color: #fff;
+    margin-left: 7rem;
+    text-shadow: 5px 1px 2px rgba(150, 150, 150, 1);
+    cursor: pointer;
+  }
+  .container__img__subtitle {
+    font-size: 2rem;
+    text-shadow: none;
+  }
+}
+
+.container__img__button {
+  .container__img__link {
+    text-decoration: none;
+    color: #fff;
+  }
+}

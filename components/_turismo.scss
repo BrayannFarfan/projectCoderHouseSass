@@ -1,0 +1,69 @@
+.header__container {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  align-items: center;
+  .header__right {
+    .header__title {
+      color: #fff;
+      font-weight: 100;
+    }
+    .header__subtitle {
+      font-size: 3rem;
+      color: #fff;
+    }
+    .header__parrafo {
+      font-size: 1.5rem;
+      color: #fff;
+      font-weight: 100;
+    }
+    .header__link {
+      background-color: #333;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .header__content {
+    display: flex;
+    align-items: center;
+    .header__left {
+      background-color: aqua;
+      width: 300px;
+      height: 150px;
+      position: relative;
+      .header__img {
+        .header__image {
+          width: 100%;
+        }
+      }
+      .header__icon {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 50px;
+        height: 50px;
+        background-color: #01747b;
+        .header__items {
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          font-size: 2rem;
+          margin-top: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.conteiner-turismo {
+  .content-turismo {
+    .turista {
+      margin-top: 8rem;
+    }
+  }
+}

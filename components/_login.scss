@@ -1,0 +1,38 @@
+.rows {
+  background: $color-blanco;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px;
+}
+.login img {
+  border-top-left-radius: 30px;
+  width: 80%;
+  margin-left: 2.5rem;
+}
+.inp {
+  height: 50px;
+  width: 70%;
+  border: $text-none;
+  outline: $text-none;
+  border-radius: 60px;
+  box-shadow: -1px 1px 30px -11px rgba(0, 0, 0, 0.75);
+}
+.btn1 {
+  height: 50px;
+  width: 50%;
+  border: $text-none;
+  outline: $text-none;
+  border-radius: 60px;
+}
+.face {
+  font-size: 3rem;
+  color: $background-azul;
+}
+.google {
+  font-size: 3rem;
+  color: $color-rojo;
+}
+.fa-chevron-circle-down {
+  font-size: 4rem;
+  cursor: pointer;
+  color: #fff;
+}

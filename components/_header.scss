@@ -1,0 +1,35 @@
+.header {
+  background-image: url(/img/playa2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: $position-relative;
+  background-attachment: fixed;
+  font-family: $font-family;
+}
+header .banner-text {
+  top: 20vh;
+}
+.conteiner-span {
+  width: 80%;
+  margin: 0 auto;
+}
+header .banner-text p {
+  position: $position-relative;
+  top: 15px;
+}
+header .banner-text div {
+  position: $position-relative;
+  top: $top;
+}
+header .banner-text div a {
+  text-decoration: $text-none;
+  color: $color-blanco;
+  padding: 10px;
+  background: $background;
+
+  animation: animacion 2s linear infinite;
+}
+header .banner-text div i {
+  padding: 0 10px;
+}

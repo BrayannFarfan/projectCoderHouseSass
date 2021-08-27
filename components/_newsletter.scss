@@ -1,0 +1,36 @@
+.subscribe__bg {
+  background-color: $background-claro;
+  padding: 2.5rem 0;
+  margin-top: 6rem;
+}
+
+.subscribe__title,
+.subscribe__description {
+  color: $color-blanco;
+}
+.subscribe__title {
+  text-align: $text-align;
+}
+.subscribe__description {
+  text-align: $text-align;
+  margin-top: 3em;
+}
+
+.subscribe__form {
+  padding: 0.5rem;
+  text-align: $text-align;
+}
+.subscribe__form .button {
+  cursor: $pointer;
+}
+.subscribe__input {
+  height: 3rem;
+  background-color: $color-blanco;
+  color: $segundo-color;
+  position: $position-relative;
+  transition: 2s;
+}
+
+.subscribe__input::placeholder {
+  color: $segundo-color;
+}

@@ -1,0 +1,116 @@
+@media (min-width: 768px) {
+  .about__container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .conteiner-cards {
+    width: 80%;
+    margin: auto;
+    margin-top: 8rem;
+  }
+  .subscribe__input {
+    width: 300px;
+    height: 3.5rem;
+  }
+  .footer {
+    width: 80%;
+    margin: auto;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .conteiner-items {
+    display: flex;
+    flex-direction: row;
+  }
+  .login img {
+    margin-left: 5rem;
+  }
+  .reservacion__items {
+    flex-direction: row;
+    align-items: center;
+  }
+  .container__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-text {
+    .lugar__title {
+      font-size: 3rem;
+    }
+    .lugar__subtitle {
+      font-size: 4rem;
+    }
+    .lugar__item {
+      .lugar__span {
+        font-size: 5rem;
+        color: rgb(243, 181, 12);
+        font-weight: 900;
+      }
+    }
+  }
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .conteiner-cards {
+    width: 100%;
+    margin: auto;
+    margin-top: 8rem;
+  }
+
+  .conteiner-items {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+  }
+  .conteiner-card img:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+  }
+  .subscribe__input {
+    width: 600px;
+    height: 3.5rem;
+  }
+  .text-temporada {
+    width: 50%;
+  }
+  .img-fluid {
+    height: 50vh;
+    width: 100vw;
+  }
+  .card-img {
+    height: 50vh;
+    object-fit: cover;
+  }
+  .login img {
+    width: 50vw;
+  }
+  .video {
+    width: 20%;
+  }
+  .conteiner-items {
+    display: flex;
+    flex-direction: row;
+  }
+  .header__container {
+    .header__right {
+      .header__title {
+        color: #fff;
+      }
+      .header__subtitle {
+        font-size: 5rem;
+      }
+    }
+  }
+}
