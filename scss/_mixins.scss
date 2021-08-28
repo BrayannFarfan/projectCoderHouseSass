@@ -16,7 +16,7 @@ $fondos: "background-image";
   fondo8, fondo9, fondo10
 {
   .#{$fondos}-header {
-    background-image: url("/img/#{$fondos}.jpg");
+    background-image: url("../img/#{$fondos}.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
