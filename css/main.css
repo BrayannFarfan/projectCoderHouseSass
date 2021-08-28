@@ -1,5 +1,5 @@
 .fondo-header {
-  background-image: url("../img/fondo.jpg");
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -9,7 +9,7 @@
   background-color: #01747b; }
 
 .fondo1-header {
-  background-image: url("../img/fondo1.jpg");
+  background-image: url(../img/fondo1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -19,7 +19,7 @@
   background-color: #01747b; }
 
 .fondo2-header {
-  background-image: url("../img/fondo2.jpg");
+  background-image: url(../img/fondo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -29,7 +29,7 @@
   background-color: #01747b; }
 
 .fondo3-header {
-  background-image: url("../img/fondo3.jpg");
+  background-image: url(../img/fondo3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -39,7 +39,7 @@
   background-color: #01747b; }
 
 .fondo4-header {
-  background-image: url("../img/fondo4.jpg");
+  background-image: url(../img/fondo4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -49,7 +49,7 @@
   background-color: #01747b; }
 
 .fondo5-header {
-  background-image: url("../img/fondo5.jpg");
+  background-image: url(../img/fondo5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -59,7 +59,7 @@
   background-color: #01747b; }
 
 .fondo6-header {
-  background-image: url("../img/fondo6.jpg");
+  background-image: url(../img/fondo6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -69,7 +69,7 @@
   background-color: #01747b; }
 
 .fondo7-header {
-  background-image: url("../img/fondo7.jpg");
+  background-image: url(../img/fondo7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -79,7 +79,7 @@
   background-color: #01747b; }
 
 .fondo8-header {
-  background-image: url("../img/fondo8.jpg");
+  background-image: url(../img/fondo8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -89,7 +89,7 @@
   background-color: #01747b; }
 
 .fondo9-header {
-  background-image: url("../img/fondo9.jpg");
+  background-image: url(../img/fondo9.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -99,7 +99,7 @@
   background-color: #01747b; }
 
 .fondo10-header {
-  background-image: url("../img/fondo10.jpg");
+  background-image: url(../img/fondo10.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
