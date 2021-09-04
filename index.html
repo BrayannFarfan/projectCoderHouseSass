@@ -10,11 +10,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./css/main.css">
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
       rel="stylesheet"
@@ -25,26 +30,27 @@
 <body>
   <!--INICIO SECTION HEADER-->
   <header class="fondo-header"> 
+    <div class="bg-light">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light  ">
+      <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid ">
-          <a class="navbar-brand text-light fs-2" href="index.html"> <i class="fas fa-globe p-3 text-light"></i>TRAVEL</a>
+          <a class="navbar-brand text-dark fs-2 animate__animated  animate__bounce  animate__heartBeat animate__infinite 	infinite" href="index.html"> <i class="fas fa-globe p-3 text-dark"></i>TRAVEL</a>
           <button class="navbar-toggler text-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse  nav justify-content-end" id="navbarSupportedContent">
-            <ul class="nav justify-content-end  ">
+            <ul class="nav d-flex flex-column  w-100 flex-lg-row  justify-content-lg-end bg-light  ">
               <li class="nav-item">
-                <a class="nav-link active text-light fs-6" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active text-dark fs-6" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light  fs-6" href="secctions/tours.html">Tours</a>
+                <a class="nav-link text-dark  fs-6" href="secctions/tours.html">Tours</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-6" href="secctions/historia.html">Nosotros</a>
+                <a class="nav-link text-dark fs-6" href="secctions/historia.html">Nosotros</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light fs-6" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-dark fs-6" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Viaja con TRAVEL
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -57,7 +63,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light fs-6" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-dark fs-6" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Volá
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -70,10 +76,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-6" href="secctions/contacto.html">Contacto</a>
+                <a class="nav-link text-dark fs-6" href="secctions/contacto.html">Contacto</a>
               </li>
               <li  class="nav-item">
-                <a class="nav-link text-light fs-6" href="secctions/login.html"><i class="far fa-user mx-1"></i>Ingresar</a>
+                <a class="nav-link text-dark fs-6" href="secctions/login.html"><i class="far fa-user mx-1"></i>Ingresar</a>
               </li>
             </ul>
             
@@ -83,21 +89,18 @@
         
       </nav>
     </div>
-    <div class="banner-text text-center position-relative">
-      <h2 class="text-light fw-normal fs-4">Tus lugares Favoritos</h2>
-      <h3 class="text-light fs-1 fw-bold">Explora las Mejores Playas</h3>
-      <p class="conteiner-span text-light fw-normal"> 
-        <span> Playa Poza Marigosta es una hermosa playa que está localizada en Los Pilones del Distrito 
-        Municipal de Estero Hondo en el Municipio de Villa Isabela perteneciente a la Provincia de 
-        Puerto Plata en República Dominicana.
-        Que grandioso es conocer este hermoso santuario natural de aguas cristalinas y arena suave, 
-        es idóneo para el disfrute de los sentidos y que cuenta con muchos atributos.</span>
-      </p>
-      <div>
-        <a href="secctions/ofertas.html">Explorar<i class="fas fa-arrow-right"></i></a>
-        <!--TOCAME -->
-      </div>
+    <div class="carousel-caption  d-md-block">
+      <h5 class="fw-normal fs-4 text-light">Tus lugares favoritos</h5>
+      <p class="fs-1 fw-bold">Explora las Mejores travesías</p>
+      <p class=" fw-normal d-none d-md-block"> 
+        <span> Lugar Poza Marigosta es una hermoso bosque que está localizada en Los Pilones del Distrito 
+          Municipal de Estero Hondo en el Municipio de Villa Isabela perteneciente a la Provincia de 
+          Puerto Plata en República Dominicana..</span>
+        </p>
+      <p><a href="#" class="text-light bg-dark p-2 text-decoration-none">Explorar</a></p>
     </div>
+  </div>
+
   </header>
   <!--FIN SECTION HEADER-->
   <main>
@@ -107,7 +110,7 @@
         <div class="about__data">
           <h2 class="section__title about__title">
             Mas Informacion <br />
-            Acerca de las mejores playas
+            Acerca de nuestros mejores viajes
           </h2>
           <p class="about__description conteiner-span">
             <span class="texto"> Todo puede ir a tu medida, con las mejores vistas en hoteles, de las mejores playas, no desaproches esta orpotunidad grandiosa y conocé más de nuestros beneficios</span>
@@ -146,7 +149,7 @@
 
         <div class="about__img">
           <div class="about__img-overlay">
-            <img src="img/place5.jpg" alt="" class="about__img-one" />
+            <img src="img/placeIndex.jpg" alt="" class="about__img-one" />
           </div>
 
           <div class="about__img-overlay">
@@ -222,7 +225,7 @@
 
 <!--INICIO SECTION NEWSLATTER-->
     <section>
-      <div class="subscribe__bg">
+      <div class="subscribe__bg bg-dark">
         <div class="subscribe__container container">
           <h2 class="section__title subscribe__title">
             Suscribite a nuestro <br />
@@ -236,8 +239,8 @@
           <form action="" class="subscribe__form">
             <input
               type="text"
-              placeholder="email"
-              class="subscribe__input"
+              placeholder="Email"
+              class="subscribe__input "
             />
 
             <button class="button">Suscribite</button>
@@ -249,7 +252,7 @@
   </main>
 
   <!--INICIO SECTION FOOTER-->
-  <footer>
+  <footer >
     <div class="container mt-5">
         <div class="row">
           <div class="col-sm-1 col-md-4 col-lg-4">
@@ -262,7 +265,7 @@
                     Espero que sera se agrado y poder recibir el feedback correcpondiente.
                 </p>
                 <div class="container-social media d-flex gap-3">
-                  <div class="icon facebook">
+                  <div class="icon facebook ">
                     <div class="tooltip">
                         Facebook
                     </div>

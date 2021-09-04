@@ -38,6 +38,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .container__img__title {
+      margin-left: 6rem;
+    }
   }
   .banner-text {
     .lugar__title {

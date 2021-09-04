@@ -1,11 +1,18 @@
 .container__img {
   margin: auto;
   width: 80%;
+  .container__image {
+    width: 100px;
+    .conatiner__image_item {
+      margin-left: -30px;
+    }
+  }
   .container__img__title {
     font-size: 3rem;
     font-weight: 900;
     color: #fff;
     text-shadow: 5px 1px 2px rgba(150, 150, 150, 1);
+    text-align: center;
   }
   .conatiner__img__icon {
     font-size: 3rem;
@@ -17,6 +24,7 @@
   .container__img__subtitle {
     font-size: 2rem;
     text-shadow: none;
+    text-align: center;
   }
 }
 
@@ -24,5 +32,6 @@
   .container__img__link {
     text-decoration: none;
     color: #fff;
+    text-align: center;
   }
 }
