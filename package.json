@@ -1,7 +1,7 @@
 {
   "name": "proyectocoderhousesass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web de viajes , llamada TRAVEL, hecha con html, sass, bootstrap, proyecto final de Coder House",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/main.scss css/main.css",

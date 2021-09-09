@@ -110,13 +110,14 @@
 
 .button {
   display: inline-block;
-  background-color: #333;
+  background-color: #0a5d77;
   color: #fff;
   padding: 1rem 2rem;
   font-weight: 400;
   transition: 0.3s;
   text-decoration: none;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  border: 1px solid #0a5d77; }
 
 .button:hover {
   background-color: #fff;
@@ -143,8 +144,26 @@ header .banner-text div i {
 header .fa-instagram {
   color: #e1306c; }
 
+.ancla {
+  background: #0a5d77;
+  border: 1px solid #0a5d77;
+  transition: 0.5s; }
+
+.ancla:hover {
+  background-color: transparent;
+  transition: 0.5s; }
+
 .navbar {
   z-index: 10000; }
+
+.nav-item:hover {
+  box-shadow: -1px 5px 19px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 5px 19px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 5px 19px -5px rgba(0, 0, 0, 0.75);
+  transition: 0.5s; }
+
+#header {
+  background-color: #0a5d77; }
 
 .about__container {
   margin-top: 2rem; }
@@ -199,10 +218,6 @@ header .fa-instagram {
   position: absolute;
   bottom: 1rem;
   left: 1rem; }
-
-.discover__data h2,
-span {
-  color: #fff; }
 
 .discover__data span {
   color: #fff;

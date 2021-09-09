@@ -1,12 +1,13 @@
 .button {
   display: $display-inline-block;
-  background-color: $segundo-color;
+  background-color: $background-azulejo;
   color: $color-blanco;
   padding: 1rem 2rem;
   font-weight: 400;
   transition: 0.3s;
   text-decoration: $text-none;
   margin-top: 2rem;
+  border: 1px solid $background-azulejo;
 }
 
 .button:hover {
