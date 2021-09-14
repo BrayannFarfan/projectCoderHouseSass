@@ -2,3 +2,57 @@
   width: 100%;
   cursor: pointer;
 }
+
+/*********************************************
+inicio de section tour 
+/*********************************************/
+
+.col__container {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  h5 {
+    position: absolute;
+    background-color: $color-rojo;
+    padding: 0 20px 5px;
+    left: 25px;
+    top: 7px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 2rem;
+  }
+}
+
+.col__content {
+  .h6 {
+    text-align: center;
+    background-color: $background-azulejo;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 250px;
+    margin: auto;
+    position: relative;
+    top: 1rem;
+  }
+  .duracion {
+    font-weight: 900;
+    color: $background-azulejo;
+  }
+  p {
+    color: $background-azulejo;
+  }
+  div {
+    .price {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+.container__ofertas {
+  .row:hover {
+    box-shadow: -1px -1px 26px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px -1px 26px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 26px -6px rgba(0, 0, 0, 0.75);
+  }
+}

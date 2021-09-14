@@ -113,7 +113,7 @@
   background-color: #0a5d77;
   color: #fff;
   padding: 1rem 2rem;
-  font-weight: 400;
+  font-weight: 700;
   transition: 0.3s;
   text-decoration: none;
   margin-top: 2rem;
@@ -121,14 +121,38 @@
 
 .button:hover {
   background-color: #fff;
-  color: #333;
-  transition: 0.9s; }
+  color: #055066;
+  transition: 0.9s;
+  font-weight: 700; }
 
 .fa-instagram {
   color: #e1306c; }
 
+.fondos-header {
+  background-position: center;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
 header .banner-text {
   top: 20vh; }
+
+.travels {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .travels h1 {
+    text-align: center;
+    font-size: 3rem; }
+    .travels h1 span {
+      color: #055066; }
+  .travels p {
+    margin-top: 2rem; }
+  .travels a:hover {
+    color: #333; }
 
 .conteiner-span {
   width: 80%;
@@ -144,17 +168,12 @@ header .banner-text div i {
 header .fa-instagram {
   color: #e1306c; }
 
-.ancla {
-  background: #0a5d77;
-  border: 1px solid #0a5d77;
-  transition: 0.5s; }
-
-.ancla:hover {
-  background-color: transparent;
-  transition: 0.5s; }
-
 .navbar {
   z-index: 10000; }
+
+.nav {
+  background-color: #fff;
+  border-radius: 15px; }
 
 .nav-item:hover {
   box-shadow: -1px 5px 19px -5px rgba(0, 0, 0, 0.75);
@@ -277,14 +296,37 @@ header .fa-instagram {
           margin-top: 10px;
           cursor: pointer; }
 
-.conteiner-turismo .content-turismo .turista {
+/************************************
+inicio section index turista responsable
+************************************/
+.turismo__container {
   margin-top: 8rem; }
+  .turismo__container .turismo__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  .turismo__container .turismo__images img {
+    width: 100%;
+    border-radius: 20px; }
+  .turismo__container .turismo__images .turismo__one {
+    position: relative;
+    padding: 5px; }
+    .turismo__container .turismo__images .turismo__one h5 {
+      position: absolute;
+      color: #fff;
+      bottom: 0;
+      padding: 0 5px; }
 
+/************************************
+fin section index turista responsable
+************************************/
 .content-text {
   margin-top: 6rem; }
 
 .subscribe__bg {
-  background-color: #055066;
+  background-color: #0a5d77;
   padding: 2.5rem 0;
   margin-top: 6rem; }
 
@@ -527,6 +569,49 @@ header .fa-instagram {
   width: 100%;
   cursor: pointer; }
 
+/*********************************************
+inicio de section tour 
+/*********************************************/
+.col__container {
+  position: relative; }
+  .col__container img {
+    width: 100%; }
+  .col__container h5 {
+    position: absolute;
+    background-color: #ed1c24;
+    padding: 0 20px 5px;
+    left: 25px;
+    top: 7px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 2rem; }
+
+.col__content .h6 {
+  text-align: center;
+  background-color: #0a5d77;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 250px;
+  margin: auto;
+  position: relative;
+  top: 1rem; }
+
+.col__content .duracion {
+  font-weight: 900;
+  color: #0a5d77; }
+
+.col__content p {
+  color: #0a5d77; }
+
+.col__content div .price {
+  display: flex;
+  flex-direction: column; }
+
+.container__ofertas .row:hover {
+  box-shadow: -1px -1px 26px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 26px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 26px -6px rgba(0, 0, 0, 0.75); }
+
 .rows {
   background: #fff;
   border-radius: 30px;
@@ -654,7 +739,10 @@ header .fa-instagram {
   .header__container {
     display: flex;
     flex-direction: row;
-    align-items: center; } }
+    align-items: center; }
+  .nav {
+    background-color: #fff;
+    border-radius: 15px; } }
 
 @media (min-width: 1024px) {
   .conteiner-cards {
@@ -690,4 +778,22 @@ header .fa-instagram {
   .header__container .header__right .header__title {
     color: #fff; }
   .header__container .header__right .header__subtitle {
-    font-size: 5rem; } }
+    font-size: 5rem; }
+  .nav {
+    background-color: transparent;
+    color: #fff; }
+    .nav .nav-link {
+      color: #fff !important; }
+  .fondos-header {
+    background-position: 0 0; }
+  .col__content .h6 {
+    text-align: center;
+    background-color: #0a5d77;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 450px;
+    margin: auto;
+    position: relative;
+    top: 1rem;
+    padding: 5px;
+    border-radius: 5px; } }

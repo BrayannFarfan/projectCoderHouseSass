@@ -60,10 +60,37 @@
   }
 }
 
-.conteiner-turismo {
-  .content-turismo {
-    .turista {
-      margin-top: 8rem;
+/************************************
+inicio section index turista responsable
+************************************/
+
+.turismo__container {
+  margin-top: 8rem;
+  .turismo__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .turismo__images {
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+    .turismo__one {
+      position: relative;
+      padding: 5px;
+      h5 {
+        position: absolute;
+        color: #fff;
+        bottom: 0;
+        padding: 0 5px;
+      }
     }
   }
 }
+
+/************************************
+fin section index turista responsable
+************************************/

@@ -3,7 +3,7 @@
   background-color: $background-azulejo;
   color: $color-blanco;
   padding: 1rem 2rem;
-  font-weight: 400;
+  font-weight: 700;
   transition: 0.3s;
   text-decoration: $text-none;
   margin-top: 2rem;
@@ -12,6 +12,7 @@
 
 .button:hover {
   background-color: $color-blanco;
-  color: $segundo-color;
+  color: $background-claro;
   transition: 0.9s;
+  font-weight: 700;
 }

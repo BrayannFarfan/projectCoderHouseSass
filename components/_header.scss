@@ -1,5 +1,33 @@
+.fondos-header {
+  background-position: center;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 header .banner-text {
   top: 20vh;
+}
+.travels {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    span {
+      color: rgb(5, 80, 102);
+    }
+  }
+  p {
+    margin-top: 2rem;
+  }
+
+  a:hover {
+    color: #333;
+  }
 }
 .conteiner-span {
   width: 80%;
@@ -21,17 +49,13 @@ header {
     color: $background-rosa;
   }
 }
-.ancla {
-  background: $background-azulejo;
-  border: 1px solid $background-azulejo;
-  transition: 0.5s;
-}
-.ancla:hover {
-  background-color: transparent;
-  transition: 0.5s;
-}
+
 .navbar {
   z-index: 10000;
+}
+.nav {
+  background-color: #fff;
+  border-radius: 15px;
 }
 .nav-item:hover {
   box-shadow: -1px 5px 19px -5px rgba(0, 0, 0, 0.75);
