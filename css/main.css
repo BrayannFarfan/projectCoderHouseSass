@@ -6,7 +6,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo1-header {
   background-image: url(../img/fondo1.jpg);
@@ -16,7 +17,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo2-header {
   background-image: url(../img/fondo2.jpg);
@@ -26,7 +28,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo3-header {
   background-image: url(../img/fondo3.jpg);
@@ -36,7 +39,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo4-header {
   background-image: url(../img/fondo4.jpg);
@@ -46,7 +50,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo5-header {
   background-image: url(../img/fondo5.jpg);
@@ -56,7 +61,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo6-header {
   background-image: url(../img/fondo6.jpg);
@@ -66,7 +72,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo7-header {
   background-image: url(../img/fondo7.jpg);
@@ -76,7 +83,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo8-header {
   background-image: url(../img/fondo8.jpg);
@@ -86,7 +94,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo9-header {
   background-image: url(../img/fondo9.jpg);
@@ -96,7 +105,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .fondo10-header {
   background-image: url(../img/fondo10.jpg);
@@ -106,7 +116,8 @@
   position: relative;
   background-attachment: fixed;
   font-family: "Roboto";
-  background-color: #01747b; }
+  background-color: #01747b;
+  background-position: center; }
 
 .button {
   display: inline-block;
@@ -124,9 +135,6 @@
   color: #055066;
   transition: 0.9s;
   font-weight: 700; }
-
-.fa-instagram {
-  color: #e1306c; }
 
 .fondos-header {
   background-position: center;
@@ -435,6 +443,13 @@ fin section index turista responsable
 
 .nosotros .nosotros__title {
   font-size: 3.3rem; }
+
+.fa-instagram {
+  color: #e1306c; }
+
+.fa-whatsapp {
+  color: #00a817;
+  font-size: 1.5rem; }
 
 .galeria__container {
   width: 80%;
@@ -796,4 +811,13 @@ inicio de section tour
     position: relative;
     top: 1rem;
     padding: 5px;
-    border-radius: 5px; } }
+    border-radius: 5px; }
+  .travels {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .travels h1 {
+      text-align: center;
+      font-size: 4.5rem; } }
